@@ -2,7 +2,7 @@
 
 namespace Withcandour\Beacon\Http\Controllers;
 
-use Illuminate\Routing\Controller;
+use App\Http\Controllers\Controller;
 use Withcandour\Beacon\Http\Services\BeaconService;
 
 class BeaconController extends Controller
