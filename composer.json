@@ -1,0 +1,19 @@
+{
+    "name": "withcandour/beacon",
+    "autoload": {
+        "psr-4": {
+            "Withcandour\\Beacon\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Beacon",
+            "description": "Beacon addon"
+        },
+        "laravel": {
+            "providers": [
+                "Withcandour\\Beacon\\ServiceProvider"
+            ]
+        }
+    }
+}
